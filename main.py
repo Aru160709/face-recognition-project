@@ -224,7 +224,7 @@ if len(known_face_names) == 0:
 # =========================
 # BUKA IVCAM
 # =========================
-ivcam_index = 1 #gantii 1
+ivcam_index = 0 #gantii 1
 video_capture = cv2.VideoCapture(ivcam_index, cv2.CAP_DSHOW)
 time.sleep(2)
 
